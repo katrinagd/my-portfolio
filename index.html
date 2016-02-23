@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
      <head>
-         <title>P Gallery | View Gallery</title>
+         <title>Katrina Guyduy | Portfolio</title>
          <link rel="stylesheet" href="css/style.css">
+
+         <link rel="stylesheet" href="css/lightbox.css">
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+         
          <script src="js/script.js"></script>
+
      </head>
      <body>
        		<header>
             <div class="container">
-          	      <h1 class="logo">P GALLERY</h1>
+          	      <h1 class="logo">Katrina Guyduy</h1>
                   <nav>
                      <ul>
                         <li><a href="#">All Projects</a></li>
@@ -23,29 +27,40 @@
 
           <section class="tagline"> 
             <div class="container">
-               <h1>View Our Work</h1>          
+               <h1>View my Portfolio</h1>          
             </div> 
           </section>  
           <section> 
             <div class="container">
                <h1 id="heading">All projects</h1>   
                <ul id="gallery">
-                   <li class="programming cms"><a href="#" data-title="UX Designer Portfolio" data-desc="Custom WordPress theme development, Responsive jQuery Content Slider, Sticky Header Navigation Menu, HTML/CSS, PHP, Custom post type, taxonomy, Field Suite, Gulp, SASS."><img src="img/web1.jpg"></a></li>
-                   <li class="programming"><a href="#" data-title="YouTube video search script" data-desc="YouTube Data API, Animated Search Box, ChannelList and searchList methods, FancyBox plugin to open videos, Makin a GET Request."><img src="img/web2.jpg"></a></li>
-                   <li class="programming cms"><a href="#" data-title="Le Red Bread WordPress Website" data-desc="Custom WordPress theme development, Responsive jQuery Content Slider, HTML/CSS, PHP, Custom post type, taxonomy, Field Suite, Gulp, SASS."><img src="img/web3.jpg"></a></li>
-                   <li class="programming"><a href="#" data-title="100 Mile Resto Bar" data-desc="Responsive one page website. HTML5, CSS3, image slider jQuery plugin, smooth scrolling menu. Dynamically display whether the restaurant is open or not using JavaScript."><img src="img/web4.jpg"></a></li>
-                   <li class="design"><a href="#" data-title="SPA Email marketing and social media creative" data-desc="Social media support Facebook/Instagram/Pinterest updates, Newsletters to subscribers for Green Leaf Medi Spa."><img src="img/web5.jpg"></a></li>
-                   <li class="design"><a href="#" data-title="Lykki E-Newsletter" data-desc="Design email campaigns for various company promotions for 2014-2015 period (bi-weekly). HTML, CSS, Illustrator, Photoshop, Constant Contact."><img src="img/web6.jpg"></a></li>
-                   <li class="design"><a href="#" data-title="Heliski Shop Logo" data-desc="Logo Design for Heliski Shop (Russian and English versions). Heliski Shop- The World of Heli-Skiing In One Place."><img src="img/web7.jpg"></a></li>
-                   <li class="cms"><a href="#" data-title="West Suburban Tours Wordpress Website" data-desc="Multilingual wordpress website. West Suburban Tours- Tours across the Lower Mainland, Vancouver Island and Whistler offered in English and Russian."><img src="img/web8.jpg"></a></li>
-                   <li class="cms"><a href="#" data-title="Silkberry Baby WordPress Website" data-desc="WordPress E-commerce. Woo-Commerce set up and administrations."><img src="img/web9.jpg"></a></li>
-                   <li class="cms"><a href="#" data-title="GeoMine Wordpress Website" data-desc="GeoMineProject is one of the leading geology and mining consulting company in CIS countries with offices in Canada, Russia and Kazakhstan."><img src="img/web10.jpg"></a></li>
-                   <li class="design"><a href="#" data-title="Can West Machinery Logo Design" data-desc="Logo, Business cards and Brochure Graphic Design. Can West Machinery is one of Canada’s most versatile jobbing machine shops."><img src="img/web11.jpg"></a></li>
+                   <li class="programming cms"><a href="img/web1.jpg" data-lightbox="projects" data-title="UX Designer Portfolio <a href='http://whitneylaw.ca' target='_blank'>Demo</a>" data-desc="Custom WordPress theme development, Responsive jQuery Slider, Sticky Header Menu, HTML/CSS, PHP, Custom post type, taxonomy, Field Suite, Gulp, SASS."><img src="img/web1.jpg"></a></li>
+
+                   <li class="programming"><a href="img/web2.jpg" data-lightbox="projects" data-title="YouTube video search script <a href='http://katrinagd.github.io/search-vids/' target='_blank'>Demo</a>" data-desc="YouTube Data API, Animated Search Box, ChannelList and searchList methods, FancyBox plugin to open videos, Makin a GET Request."><img src="img/web2.jpg"></a></li>
+
+                   <li class="programming cms"><a href="img/web3.jpg" data-lightbox="projects" data-title="Le Red Bread WordPress Website <a href='http://katrinasdesign.com/leredbread/' target='_blank'>Demo</a>" data-desc="Custom WordPress theme development, Responsive jQuery Content Slider, HTML/CSS, PHP, Custom post type, taxonomy, Field Suite, Gulp, SASS."><img src="img/web3.jpg"></a></li>
+
+                   <li class="programming"><a href="img/web4.jpg" data-lightbox="projects" data-title="100 Mile Resto Bar <a href='http://katrinagd.github.io/p2-restaurant-homepage/' target='_blank'>Demo</a>" data-desc="Responsive one page website. HTML5, CSS3, image slider jQuery plugin, smooth scrolling menu. Dynamically display whether the restaurant is open or not using JavaScript."><img src="img/web4.jpg"></a></li>
+
+                   <li class="design"><a href="img/web5.jpg" data-lightbox="projects" data-title="SPA Email marketing and social media creative" data-desc="Social media support Facebook/Instagram/Pinterest updates, Newsletters to subscribers for Green Leaf Medi Spa."><img src="img/web5.jpg"></a></li>
+
+                   <li class="design"><a href="img/web6.jpg" data-lightbox="projects" data-title="Lykki E-Newsletter" data-desc="Design email campaigns for various company promotions for 2014-2015 period (bi-weekly). HTML, CSS, Illustrator, Photoshop, Constant Contact."><img src="img/web6.jpg"></a></li>
+
+                   <li class="design"><a href="img/web7.jpg" data-lightbox="projects" data-title="Heliski Shop Logo" data-desc="Logo Design for Heliski Shop (Russian and English versions). Heliski Shop- The World of Heli-Skiing In One Place."><img src="img/web7.jpg"></a></li>
+
+                   <li class="cms"><a href="img/web8.jpg" data-lightbox="projects" data-title="West Suburban Tours Wordpress Website <a href='http://westsuburbantours.com/' target='_blank'>Demo</a>" data-desc="Multilingual wordpress website. West Suburban Tours- Tours across the Lower Mainland, Vancouver Island and Whistler offered in English and Russian."><img src="img/web8.jpg"></a></li>
+
+                   <li class="cms"><a href="img/web9.jpg" data-lightbox="projects" data-title="Silkberry Baby WordPress Website <a href='http://silkberrybaby.com' target='_blank'>Demo</a>" data-desc="WordPress E-commerce. Woo-Commerce set up and administrations."><img src="img/web9.jpg"></a></li>
+
+                   <li class="cms"><a href="img/web10.jpg" data-lightbox="projects" data-title="GeoMine Wordpress Website <a href='http://geomineproject.ca/' target='_blank'>Demo</a>" data-desc="GeoMineProject is one of the leading geology and mining consulting company in CIS countries with offices in Canada, Russia and Kazakhstan."><img src="img/web10.jpg"></a></li>
+                   
+                   <li class="design"><a href="img/web11.jpg" data-lightbox="projects" data-title="Can West Machinery Logo Design" data-desc="Logo, Business cards and Brochure Graphic Design. Can West Machinery is one of Canada’s most versatile jobbing machine shops."><img src="img/web11.jpg"></a></li>
                </ul>       
             </div> 
           </section>  
           <footer>
             <p>Copyright &copy; 2016, All Rights Reserved</p>
-          </footer>   
+          </footer>  
+          <script src="js/lightbox.js"></script> 
      </body>	
 </html>
