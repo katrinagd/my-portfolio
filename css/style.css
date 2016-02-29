@@ -16,6 +16,7 @@ a{
 	width: 80%;
 	margin: auto;
 	overflow: auto;
+
 }
 
 header {
@@ -65,12 +66,17 @@ section {
 }
 
 .tagline{
-	background: #03899c;
+	background-image: linear-gradient(-170deg,#2376ae 0%,#c16ecf 100%);
+    background: linear-gradient(135deg,#a7fce7 0%,#85ccb5 32%,#423560 100%);
+	/*background: #03899c;*/
 	color: #fff;
 }
 .tagline h1{
 	text-align: center;;
 	font-size: 35px;
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+	            0px 8px 13px rgba(0,0,0,0.1),
+	            0px 18px 23px rgba(0,0,0,0.1);
 }
 
 #gallery{
@@ -81,7 +87,8 @@ section {
 }
 
 #gallery a{
-	color: #ccc;
+	color: #03899c;
+	background-color: #fff;
 }
 
 #gallery li{
